@@ -1,0 +1,12 @@
+项目名:爬取男人图网站帅哥
+采用技术:scrapy,python3
+存储方法:本地文件存储.
+使用方法:
+    1 修改settings.py里面的文件夹,改成你自己电脑上的某个文件夹
+    IMAGES_STORE = 'G:\development\images\Boytu'
+
+    2 在nanrentu目录下,运行命令:scrapy crawl nanRen
+      或者直接运行run.py
+技术关键:
+    分析网站链接指向,获取到图片连接
+
